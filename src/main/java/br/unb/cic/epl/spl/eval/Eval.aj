@@ -18,7 +18,6 @@ public privileged aspect Eval {
 	
 	void around(br.unb.cic.epl.spl.Main m): createExp(m) {
 		proceed(m);
-		m.expressions.add(new br.unb.cic.epl.spl.Literal(10));	
+		m.expressions.add(new br.unb.cic.epl.spl.Literal(109));
 	}
-	
 }

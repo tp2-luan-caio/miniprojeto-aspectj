@@ -6,3 +6,5 @@ public aspect EvalTest {
 		assertEquals(new Integer(1000), lit.eval());
 	}
 }
+
+
